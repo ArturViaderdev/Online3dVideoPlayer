@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "3D Vision Player",
+  "version": "1.0.0",
+  "description": "Plays the current web video (YouTube...) in 3D with NVIDIA 3D Vision glasses through 3dvision-play.",
+  "permissions": [
+    "nativeMessaging",
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "3D Vision: play this video in 3D",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "bg.js"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQ2uEj9bFg0FOIsMwuvMVfSUfCwJTEWQb0DOJGo6dE4CicgCYCDO7cl06KMVOYz+oluvs+0DDES2Fw/9+3Ckf6Y6ZMxYUrfSPKI1end39JXshkD2/BOmUINNfqoWv8CebKFU8QqyopQ7qhpBCF6APMDlqG+T5a1n888EvY3kXRJtPq+xxpj4jJUZGXB9G56K/zxcx8GfXeI3klB1NVOPzQdaR87m56YpORb2oKI8rCNHrU5AV/ZMNuw0SunwbSZKxbpifJYFA+WhuuOfTAey23ZjCak2jV1s80JbEdSyUF/h0dfX77KDoauQjXFO5tEOalfvCuETuhFiSssjKPX2jwIDAQAB"
+}
